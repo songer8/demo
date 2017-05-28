@@ -7,5 +7,6 @@
 - `git clone https://github.com/songer8/demo.git`
 
 ### 使用编辑器vscode打开项目
-修改代码后，填写注释，点击勾号，表示commit
+修改代码后，切换到git管理tab
+填写注释，点击勾号，表示commit
 大概点点点，点推送，表示push
