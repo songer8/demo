@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>大悠</title>
+</head>
+<body>
+    <img id="pic" src="http://1821.img.pp.sohu.com.cn/images/blog/2009/8/5/22/10/1239855c7bbg214.jpg">
+</body>
+    <script>
+    var picture=document.getElementById('pic');
+    console.log(picture.onclick);
+    picture.onclick = function() {
+    	picture.setAttribute('src','http://www.lady8844.com/h040/h68/img201410052017580.jpg');
+    }
+    console.log(picture.onclick);
+    // picture.addEventListener('mouseover',change);
+    </script>
+</html>
